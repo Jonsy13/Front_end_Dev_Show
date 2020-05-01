@@ -20,11 +20,11 @@ const Home = () => {
                     </div>
                     <div className="side_image1">
                         <h4>AIM</h4>
-                        <img className="pic" src={aim} />
+                        <img className="pic" src={aim} alt="Air"/>
                     </div>
                     <div className="side_image1">
                         <h4>REPEAT</h4>
-                        <img className="pic" src={repeat} />
+                        <img className="pic" src={repeat} alt="Repeat"/>
                     </div>
                 </div>
             </Container>

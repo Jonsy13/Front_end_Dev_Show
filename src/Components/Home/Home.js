@@ -20,7 +20,7 @@ const Home = () => {
             <div>
                 <div className="main1">
                     <div className="side_image">
-                        <img className="imgg" src={dark} />
+                        <img className="imgg" src={dark} alt="Content Pic"/>
                     </div>
                     <div className="main_head">
                         <h1 className="font">Here We Drive The Future!</h1>

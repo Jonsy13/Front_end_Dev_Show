@@ -1,6 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
-import Jonsy from '../../Assets/Jonsy.jpg';
+import { Container} from 'react-bootstrap';
 import './AboutUs.css'
 
 
