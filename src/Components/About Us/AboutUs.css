@@ -1,0 +1,46 @@
+.imgg7{
+    box-shadow: 3px 3px 3px #30475e;
+    height: 600px;
+    width: 500px;
+}
+
+.main_head7{
+    padding: 10px 30px 10px 30px;
+    flex:3;
+    align-content: center;
+}
+
+.main_head7 h1{
+    font-size: 4em;
+    font-weight: 500;
+    border-bottom: 3px solid #30475e;
+    width: fit-content;
+    font-family: 'Staatliches', cursive;
+    
+}
+
+.main_head7 p{
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.side_image7{
+    padding: 10px 30px 10px 30px;
+    align-self: center;
+    flex:1;
+}
+
+.main7{
+    display: flex;
+    padding: 10px 50px;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: stretch;
+    height: 100vh;
+    background-color: #1b1b2f;
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+}

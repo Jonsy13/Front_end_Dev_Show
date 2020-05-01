@@ -1,0 +1,64 @@
+.imgg{
+    box-shadow: 6px 6px 6px #30475e;
+    height: 300px;
+    width: 500px;
+}
+
+.main{
+    display: flex;
+    padding: 10px 50px;
+    margin: 10px auto auto auto;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    background-image: url('bac2.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    width:100%;
+    height: 500px;
+    background-attachment: fixed;
+    
+}
+
+.main_head{
+    padding: 10px 30px 10px 30px;
+    flex:2;
+    align-content: center;
+}
+
+.main_head h1{
+    font-size: 3em;
+    font-weight: 500;
+    border-bottom: 3px solid #30475e;
+    width: fit-content;
+    font-family: 'Staatliches', cursive;
+    
+}
+
+.main_head p{
+    
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.side_image{
+    padding: 10px 30px 10px 30px;
+    align-self: center;
+    flex:1;
+}
+
+.main1{
+    display: flex;
+    padding: 10px 50px;
+    align-items: center;
+    flex-wrap:wrap-reverse;
+    justify-content: stretch;
+
+}
+
+@media (max-width: 960px){
+    .imgg{
+        width: 350px;
+    }
+}
