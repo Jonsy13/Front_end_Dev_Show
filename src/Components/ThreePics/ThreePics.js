@@ -8,7 +8,7 @@ import { Container } from 'react-bootstrap';
 const Home = () => {
     return (
         <div>
-            <Container fluid rounded>
+            <Container fluid>
                 <div className="main3">
                     <h3>WHAT WE HAVE TO DO??</h3>
                 </div>

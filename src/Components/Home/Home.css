@@ -57,8 +57,16 @@
 
 }
 
-@media (max-width: 960px){
+@media only screen and (max-width: 600px){
     .imgg{
-        width: 350px;
+        width: 200px;
+    }
+
+    .side_image{
+        justify-content: center;
+    }
+
+    .main{
+        height: fit-content;
     }
 }
